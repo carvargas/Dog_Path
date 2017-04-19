@@ -1,0 +1,71 @@
+Given case:
+java Dog_Path dog-path.txt dog-path2.txt
+	Segments BC and EF form an exclusion set
+	Minimizing nodes on BC are located at (55.0,38.5) and (55.0,41.5)
+	Minimizing nodes on EF are located at (53.5,40.0) and (56.5,40.0)
+	Segments CD and HE form an exclusion set
+	Minimizing nodes on CD are located at (41.5,55.0) and (38.5,55.0)
+	Minimizing nodes on HE are located at (40.0,56.5) and (40.0,53.5)
+
+1:	
+java Dog_Path dog-path3.txt dog-path4.txt
+	Segments BC and DE form an exclusion set
+	Segments BC and EF form an exclusion set
+	Segments CA and DE form an exclusion set
+	Segments CA and EF form an exclusion set
+	
+2:
+java Dog_Path dog-path5.txt dog-path6.txt	
+	Segments AB and DE form an exclusion set
+	Minimizing nodes on AB are located at (2.0910265,3.9393156) and (3.7551272,2.8299153)
+	Minimizing nodes on DE are located at (2.6457267,2.9685903) and (3.200427,3.8006406)
+	Segments AB and GD form an exclusion set
+	Minimizing nodes on AB are located at (3.4756422,3.0162387) and (5.0,2.0)
+	Minimizing nodes on GD are located at (4.7979827,2.5595965) and (3.8174021,2.3634806)
+	Segments BC and DE form an exclusion set
+	Segments BC and GD form an exclusion set
+	Segments CA and DE form an exclusion set
+	Segments CA and GD form an exclusion set
+	
+3:
+java Dog_Path dog-path5.txt dog-path2.txt
+	No exclusion zones
+	
+4:
+java Dog_Path dog-path7.txt dog-path8.txt
+	Segments DF and GI form an exclusion set
+	Segments DF and HG form an exclusion set
+	Segments EA and GI form an exclusion set
+	Segments EA and HG form an exclusion set
+	Segments FE and GI form an exclusion set
+	Minimizing nodes on FE are located at (3.8188977,4.0) and (2.0,4.0)
+	Minimizing nodes on GI are located at (2.5,4.54) and (3.2002735,3.3542037)
+	Segments FE and HG form an exclusion set
+	Minimizing nodes on FE are located at (3.1811023,4.0) and (2.0,4.0)
+	Minimizing nodes on HG are located at (1.7997266,3.3542037) and (2.5,4.54)
+
+5:	
+java Dog_Path dog-path9.txt dog-path10.txt
+	Segments CA and EF form an exclusion set
+	Minimizing nodes on CA are located at (1.0,5.5) and (1.0,6.5)
+	Minimizing nodes on EF are located at (0.5,6.0) and (1.5,6.0)
+	Segments DC and IG form an exclusion set
+	Minimizing nodes on DC are located at (3.5,3.0) and (2.5,3.0)
+	Minimizing nodes on IG are located at (3.0,3.0) and (2.6464467,2.6464467)
+	Segments DC and LI form an exclusion set
+	Minimizing nodes on DC are located at (3.5,3.0) and (2.5,3.0)
+	Minimizing nodes on LI are located at (3.3535533,3.3535533) and (3.0,3.0)	
+6:
+java Dog_Path dog-path11.txt dog-path12.txt
+	Segments AC and EG form an exclusion set
+	Minimizing nodes on AC are located at (3.5,12.0) and (4.5,12.0)
+	Minimizing nodes on EG are located at (4.0,10.75) and (4.0,13.25)
+	Segments AC and HF form an exclusion set
+	Minimizing nodes on AC are located at (7.5,12.0) and (8.5,12.0)
+	Minimizing nodes on HF are located at (8.0,13.25) and (8.0,10.75)
+	Segments DB and FJ form an exclusion set
+	Minimizing nodes on DB are located at (8.5,8.0) and (7.5,8.0)
+	Minimizing nodes on FJ are located at (8.0,9.25) and (8.0,6.75)
+	Segments DB and IE form an exclusion set
+	Minimizing nodes on DB are located at (4.5,8.0) and (3.5,8.0)
+	Minimizing nodes on IE are located at (4.0,6.75) and (4.0,9.25)
